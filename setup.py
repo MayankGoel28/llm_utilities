@@ -10,4 +10,7 @@ setup(
     install_requires=install_requires,
     author='Mayank Goel',
     description='Utilities for working with LLMs',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/mayank31398/llm_utils',
 )
